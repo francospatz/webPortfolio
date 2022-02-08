@@ -1,0 +1,198 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline; 
+    font-family: 'Cousine', monospace;
+}
+
+.welcome, .menu{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    position: relative;
+    animation-name: venida;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    
+    
+}
+
+@keyframes venida {
+    from {top: 1500px;}
+    to {top: 0px;}
+}
+
+.welcome__h1 {
+    transition: all 0.6s ease;
+    color: rgb(61, 61, 61);
+    font-size: 10vw;
+    
+}
+
+.welcome__h1:hover {
+    color: rgb(211, 211, 211);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.menu__li:hover {   
+    color: rgb(122, 122, 122);
+    text-shadow: 1px 1px 1px 1px #000000c9;
+}
+
+.menu__li {
+    color: rgb(27, 27, 27);
+    transition: all 0.6s ease;
+    text-align: center;
+    margin: 0.6em 0;
+    font-size: 8.2vw;
+    text-shadow: 1px 1px #4b4b4b7e;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: #EEE;
+}
+
+#trigger {
+    position: absolute;
+    width: 200px;
+    height: 136px;
+    top: 50%;
+    left: 50%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger:hover ~ #bg {
+    transition: all 3s ease;
+    background: rgb(121, 121, 121);
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body__h1 {
+    font-size: 160%;
+    margin: 0, 10vw;
+    position: fixed;
+    top: 10vh;
+    left: 90vw;
+    
+
+}
+
+.body__p {
+    font-size: 160%;
+    margin: 0, 10vw;
+    position: fixed;
+    top: 19vh;
+    right: 80vw;
+}
+
+.body__div {
+    margin: 27vh 15vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.bloque {
+    margin: 10vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+pasar bloques a media queries!!!
+*/
+
+
+/*
+mobile
+*/
+@media only screen and (max-width: 319px) {
+    .menu__li {
+        margin: 13vh 0 13vh 0;
+    }
+    .body__h1 {
+        font-size: 100%;
+        position: fixed;
+        top: 15vh;
+        left: 70vw;
+    }
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .menu__li {
+        margin: 9vh 0 9vh 0;
+    }
+    .body__h1 {
+        font-size: 130%;
+        position: fixed;
+        top: 10vh;
+        left: 77vw;
+    }
+
+    
+}
+
+/*
+tablet
+*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .menu__li {
+        margin: 8.4vh 0 8.4vh 0;
+    }
+    .body__h1 {
+        font-size: 160%;
+        position: fixed;
+        top: 10vh;
+        left: 80vw;
+        
+    }
+}
+
+/*
+normal desktop
+*/
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+}
+
+/*
+large desktop
+*/
+@media only screen and (min-width: 1200px) {
+
+}
