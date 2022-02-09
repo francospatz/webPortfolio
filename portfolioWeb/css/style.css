@@ -67,6 +67,283 @@ li {
     text-shadow: 1px 1px #4b4b4b7e;
 }
 
+
+#trigger1 {
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger1:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(255, 153, 153);
+}
+#trigger2 {
+    position: absolute;
+  
+    width: 300px;
+    height: 300px;
+    top: 0%;
+    left: 0%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger2:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(12, 194, 133);
+}
+#trigger3 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 0%;
+    left: 20%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger3:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(146, 184, 240);
+}
+#trigger4 {
+    position: absolute;
+   
+    width: 300px;
+    height: 300px;
+    top: 0%;
+    left: 40%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger4:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(255, 101, 234);
+}
+#trigger5 {
+    position: absolute;
+   
+    width: 300px;
+    height: 300px;
+    top: 0%;
+    left: 60%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger5:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(169, 250, 205);
+}
+#trigger6 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 0%;
+    left: 80%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger6:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(187, 238, 204);
+}
+#trigger7 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 90%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger7:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(255, 192, 253);
+}
+#trigger8 {
+    position: absolute;
+ 
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 20%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger8:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(56, 182, 31);
+}
+#trigger9 {
+    position: absolute;
+   
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 80%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger9:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(155, 115, 82);
+}
+#trigger10 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 0%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger10:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(127, 165, 167);
+}
+#trigger11 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 20%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger11:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(3, 223, 39);
+}
+#trigger12 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 60%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger12:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(7, 32, 145);
+}
+
+#trigger13 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 80%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger13:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(165, 46, 46);
+}
+
+#trigger14 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 80%;
+    left: 80%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger14:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(93, 88, 160);
+}
+
+#trigger15 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 70%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger15:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(160, 88, 122);
+}
+#trigger16 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 40%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger16:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(5, 240, 95);
+}
+
+#trigger17 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 40%;
+    left: 20%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger17:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(115, 106, 238);
+}
+#trigger18 {
+    position: absolute;
+    
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 50%;
+    margin: -68px 0 0 -100px;
+    z-index: 2;
+}
+
+#trigger18:hover ~ #bg {
+    transition: all 0.5s ease;
+    background: rgb(53, 206, 173);
+}
+
+
 #bg {
     position: absolute;
     top: 0;
@@ -75,9 +352,10 @@ li {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: -1;
     background: #EEE;
 }
+
 
 #trigger {
     position: absolute;
@@ -94,43 +372,71 @@ li {
     background: rgb(121, 121, 121);
 }
 
-.main {
+/* .main {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .body__h1 {
     font-size: 160%;
     margin: 0, 10vw;
     position: fixed;
-    top: 10vh;
+    top: 6vh;
     left: 90vw;
-    
-
+    z-index: 2;
 }
 
-.body__p {
+/* .body__title {
+    font-size: 160%;
+    margin: 0, 5vw;
+    position: fixed;
+    top: 10vh;
+    left: 4vw;
+    z-index: 2;
+} */
+
+/* .body__title {
     font-size: 160%;
     margin: 0, 10vw;
     position: fixed;
-    top: 19vh;
+    top: 12vh;
     right: 80vw;
-}
+} */
 
 .body__div {
-    margin: 27vh 15vw;
-    display: flex;
-    flex-direction: row;
-}
-
-.bloque {
-    margin: 10vh 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.body__div2 {
+    margin: 27vh 15vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 150%;
+    height: 150%;
+    z-index: 1;
+}
+
+.bloque {
+    min-height: 30vh;
+    /*min-width: 50vw; */
+    z-index: 1;
+    width: 25%;
+}
+
+.bg1 {
+    position: fixed;
+    width: 100vw;
+    height: 150px;
+    background-color: white;
+    z-index: 2;
 }
 
 /*
@@ -164,6 +470,10 @@ mobile
         left: 77vw;
     }
 
+    .bloque {
+        width: 100%;
+    }
+
     
 }
 
@@ -187,12 +497,19 @@ tablet
 normal desktop
 */
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-
+    
 }
 
 /*
 large desktop
 */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
+    .bg1 {
+        position: fixed;
+        width: 100vw;
+        height: 92px;
+        background-color: white;
+        z-index: 2;
+    }
 
 }
